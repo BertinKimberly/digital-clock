@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://media.istockphoto.com/id/1401326975/photo/flying-over-usa-at-night-with-city-light-illumination-view-from-space-3d-render.jpg?b=1&s=170667a&w=0&k=20&c=cXZqHXTgzPZvRIO7U85uMLemd5o1Rh-9jgqhZyeFlIQ=");
+
+    background-size: 100%;
+    overflow: hidden;
+
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border: solid rgb(4, 4, 49);
+    border-radius: 10px;
+    border-width: 20px;
+    background: transparent;
+
+    position: relative;
+    width: 450px;
+
+
+
+}
+
+.clock div {
+    margin: 5px;
+    background-color: aqua;
+
+
+}
+
+.clock span {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 80px;
+    color: black;
+    opacity: .5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+div #text {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgb(64, 218, 79);
+    background-color: rgb(90, 90, 156);
+    height: 30px;
+}
+
+.clock #ampm {
+    bottom: 0;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 60px;
+    height: 30px;
+    padding: 20px;
+    background-color: gray;
+    color: green;
+
+}
+
+.container {
+
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 300px;
+    border: solid black;
+    border-width: 20px;
+}
